@@ -23,7 +23,12 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         let nib = UINib(nibName: "MessageRightCell", bundle: nil)
         tableView.register(nib, forCellReuseIdentifier: MessageRightCell.identifier)
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         setTableViewBackgroundGradient(sender: tableView, pinkColor, purpleColor, blueColor)
+        super.viewDidAppear(animated)
     }
     
     func setTableViewBackgroundGradient(sender: UITableView, _ topColor:UIColor, _ centerColor:UIColor, _ bottomColor:UIColor) {
@@ -40,7 +45,6 @@ class ViewController: UIViewController {
         let backgroundView = UIView(frame: sender.bounds)
         backgroundView.layer.insertSublayer(gradientLayer, at: 0)
         sender.backgroundView = backgroundView
-        
     }
     
 }
