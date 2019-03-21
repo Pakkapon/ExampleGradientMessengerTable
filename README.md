@@ -1,4 +1,4 @@
-# ExampleGradientMessenger
+# ExampleGradientMessengerTable
 This project got inspiration from Messenger App (Facebook). I'm curious to know how the facebook coding the UI look like that,
 And I'm successful to built it. I wish it's will useful for people who want the method to achieve it. 
 
