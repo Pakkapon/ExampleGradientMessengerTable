@@ -12,7 +12,6 @@
 		D704220F2241EDC100BB371E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D704220D2241EDC100BB371E /* Main.storyboard */; };
 		D70422112241EDC200BB371E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D70422102241EDC200BB371E /* Assets.xcassets */; };
 		D70422142241EDC200BB371E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D70422122241EDC200BB371E /* LaunchScreen.storyboard */; };
-		D704221C2241F4C100BB371E /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D704221B2241F4C100BB371E /* Utils.swift */; };
 		D70422282242119800BB371E /* MessageRightCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D70422262242119800BB371E /* MessageRightCell.swift */; };
 		D70422292242119800BB371E /* MessageRightCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70422272242119800BB371E /* MessageRightCell.xib */; };
 		D704222C224211E300BB371E /* CustomUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D704222B224211E300BB371E /* CustomUIView.swift */; };
@@ -26,7 +25,6 @@
 		D70422102241EDC200BB371E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D70422132241EDC200BB371E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D70422152241EDC200BB371E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D704221B2241F4C100BB371E /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		D70422262242119800BB371E /* MessageRightCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageRightCell.swift; path = ExampleGradientTable/Cell/MessageRightCell.swift; sourceTree = SOURCE_ROOT; };
 		D70422272242119800BB371E /* MessageRightCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MessageRightCell.xib; path = ExampleGradientTable/Cell/MessageRightCell.xib; sourceTree = SOURCE_ROOT; };
 		D704222B224211E300BB371E /* CustomUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomUIView.swift; sourceTree = "<group>"; };
@@ -70,17 +68,8 @@
 				D70422102241EDC200BB371E /* Assets.xcassets */,
 				D70422122241EDC200BB371E /* LaunchScreen.storyboard */,
 				D70422152241EDC200BB371E /* Info.plist */,
-				D704221D2241F4CD00BB371E /* Utils */,
 			);
 			path = ExampleGradientTable;
-			sourceTree = "<group>";
-		};
-		D704221D2241F4CD00BB371E /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-				D704221B2241F4C100BB371E /* Utils.swift */,
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		D70422252242117700BB371E /* Cell */ = {
@@ -176,7 +165,6 @@
 				D704222C224211E300BB371E /* CustomUIView.swift in Sources */,
 				D704220C2241EDC100BB371E /* ViewController.swift in Sources */,
 				D704220A2241EDC100BB371E /* AppDelegate.swift in Sources */,
-				D704221C2241F4C100BB371E /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

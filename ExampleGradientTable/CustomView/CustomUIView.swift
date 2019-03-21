@@ -35,12 +35,6 @@ import UIKit
             layer.borderColor = borderColor.cgColor
         }
     }
-    
-//    @IBInspectable var setShadow : Bool = false {
-//        didSet {
-//            AppUtils.shared.setShadowForView(View: self)
-//        }
-//    }
 }
 
 
