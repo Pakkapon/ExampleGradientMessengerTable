@@ -21,10 +21,7 @@
                             <navigationBar contentMode="scaleToFill" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LaC-la-5ad">
                                 <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                                 <items>
-                                    <navigationItem title="Table" id="pBT-La-cHL">
-                                        <barButtonItem key="leftBarButtonItem" title="Add Left" id="E2P-Zc-OEa"/>
-                                        <barButtonItem key="rightBarButtonItem" title="Add Right" id="Aqs-P1-9GO"/>
-                                    </navigationItem>
+                                    <navigationItem title="Table" id="pBT-La-cHL"/>
                                 </items>
                             </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="5Lf-ef-L9k">

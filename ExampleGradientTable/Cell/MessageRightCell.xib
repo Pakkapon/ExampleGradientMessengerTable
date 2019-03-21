@@ -46,8 +46,12 @@
                             </userDefinedRuntimeAttribute>
                         </userDefinedRuntimeAttributes>
                     </view>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNr-QT-eYy">
-                        <rect key="frame" x="296" y="43" width="0.0" height="14.5"/>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Djc-Ux-xDd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="xcvxvxcv" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hNr-QT-eYy">
+                        <rect key="frame" x="252" y="43" width="44" height="14.5"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="14.5" id="85x-jH-NLl"/>
                         </constraints>
@@ -56,23 +60,27 @@
                         <nil key="highlightedColor"/>
                     </label>
                 </subviews>
-                <color key="backgroundColor" red="0.96862745098039216" green="0.96862745098039216" blue="0.96862745098039216" alpha="1" colorSpace="calibratedRGB"/>
                 <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Djc-Ux-xDd" secondAttribute="trailing" id="0J7-q8-Eu6"/>
                     <constraint firstItem="hNr-QT-eYy" firstAttribute="top" secondItem="7Cb-YI-ehC" secondAttribute="bottom" constant="8" id="7gV-tc-7x3"/>
                     <constraint firstItem="7Cb-YI-ehC" firstAttribute="top" secondItem="HKP-cE-d8z" secondAttribute="topMargin" id="CDO-g0-r8j"/>
                     <constraint firstAttribute="trailingMargin" secondItem="7Cb-YI-ehC" secondAttribute="trailing" constant="8" id="GA3-ty-xFU"/>
                     <constraint firstItem="7Cb-YI-ehC" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="HKP-cE-d8z" secondAttribute="leadingMargin" constant="30" id="Qjd-IO-ima"/>
                     <constraint firstAttribute="bottom" secondItem="hNr-QT-eYy" secondAttribute="bottom" constant="2" id="THx-y9-Cdb"/>
+                    <constraint firstItem="Djc-Ux-xDd" firstAttribute="top" secondItem="HKP-cE-d8z" secondAttribute="top" id="UX3-sB-6gg"/>
                     <constraint firstItem="hNr-QT-eYy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="HKP-cE-d8z" secondAttribute="leading" constant="20" symbolic="YES" id="ayp-fz-X7C"/>
                     <constraint firstItem="hNr-QT-eYy" firstAttribute="trailing" secondItem="7Cb-YI-ehC" secondAttribute="trailing" id="kFW-s6-wwG"/>
+                    <constraint firstAttribute="bottom" secondItem="Djc-Ux-xDd" secondAttribute="bottom" id="nDi-rb-G7O"/>
+                    <constraint firstItem="Djc-Ux-xDd" firstAttribute="leading" secondItem="HKP-cE-d8z" secondAttribute="leading" id="qAT-RB-dvt"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
+                <outlet property="frontView" destination="Djc-Ux-xDd" id="Rkg-qN-1P8"/>
                 <outlet property="msgLbl" destination="Rit-fW-9cv" id="LMa-Lu-gD9"/>
                 <outlet property="msgView" destination="7Cb-YI-ehC" id="6B5-J6-c4K"/>
                 <outlet property="timelbl" destination="hNr-QT-eYy" id="4gI-T8-11j"/>
             </connections>
-            <point key="canvasLocation" x="100.8" y="-62.518740629685162"/>
+            <point key="canvasLocation" x="100.8" y="-62.968515742128943"/>
         </tableViewCell>
     </objects>
 </document>

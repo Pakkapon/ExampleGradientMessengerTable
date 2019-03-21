@@ -12,6 +12,7 @@ class MessageRightCell: UITableViewCell {
     @IBOutlet weak var timelbl: UILabel!
     @IBOutlet weak var msgLbl: UILabel!
     @IBOutlet weak var msgView: CustomUIView!
+    @IBOutlet weak var frontView: UIView!
     
     static let identifier = "MessageRightCell"
     
@@ -20,8 +21,20 @@ class MessageRightCell: UITableViewCell {
         timelbl.text = "20.03.2019 11:11"
     }
     
-    override func awakeFromNib() {
-        super.awakeFromNib()
+    func setMask(with hole: CGRect, in view: UIView){
+        
+        let path = UIBezierPath(rect: view.bounds)
+        let pathWithRadius = UIBezierPath(roundedRect: hole, byRoundingCorners: [.allCorners], cornerRadii: CGSize(width: 6, height: 6))
+        path.append(pathWithRadius)
+
+        // Create a shape layer and cut out the intersection
+        let mask = CAShapeLayer()
+        mask.path = path.cgPath
+        mask.fillRule = CAShapeLayerFillRule.evenOdd
+        
+        // Add the mask to the view
+        view.layer.mask = mask
+        
     }
     
 }

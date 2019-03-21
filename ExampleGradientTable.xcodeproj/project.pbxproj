@@ -89,8 +89,7 @@
 				D70422262242119800BB371E /* MessageRightCell.swift */,
 				D70422272242119800BB371E /* MessageRightCell.xib */,
 			);
-			name = Cell;
-			path = "New Group";
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		D704222A224211AC00BB371E /* CustomView */ = {
