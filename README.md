@@ -1,5 +1,5 @@
 # Example Gradient Messenger Table (Swift)
-This project got inspiration from Messenger App (Facebook). I'm curious to know how the facebook coding the UI look like that,and I'm success to built it. I wish it's will useful for people who want the method to achieve it. 
+This project got inspiration from Messenger App (Facebook). I'm curious to know how the Facebook coding the UI look like that, and I'm succeed to build it. I wish it will useful for people who want the method to achieve it.
 
 ## Example
 
